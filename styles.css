@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0d5d22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #ab3bf6; /* Green color */
+}
+
+.alert {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.alert-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f63b41; /* Green color */
+}
+
+.action-btn {
+    padding: 10px 20px;
+    background-color: #0d5d22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #0d5d22;
+}
+
+.settings-item {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.contact p {
+    font-size: 1rem;
+}

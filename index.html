@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidShield - მშობლის ინტერფეისი</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KidShield - მშობლის პანელი</h1>
+    </header>
+
+    <div class="container">
+        <section class="status">
+            <h2>აქტიური გაფრთხილებები</h2>
+            <div class="alert">
+                <span class="alert-text">საყურადღებო რისკი დადგინდა ბავშვის ანგარიშზე!</span>
+                <button class="action-btn">გაფრთხილების ნახვა</button>
+            </div>
+            <div class="alert">
+                <span class="alert-text">საეჭვო მესიჯია მიღებული ბავშვის ანგარიშზე.</span>
+                <button class="action-btn">გაფრთხილების ნახვა</button>
+            </div>
+        </section>
+
+        <section class="settings">
+            <h2>ანგარიშის პარამეტრები</h2>
+            <div class="settings-item">
+                <label for="child-name">ბავშვის სახელი:</label>
+                <input type="text" id="child-name" placeholder="შეიყვანეთ ბავშვის სახელი">
+            </div>
+            <div class="settings-item">
+                <label for="alerts">გაფრთხილებების მიღება:</label>
+                <input type="checkbox" id="alerts" checked>
+            </div>
+            <div class="settings-item">
+                <button class="action-btn">პარამეტრების შენახვა</button>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2> მომხმარებელთა მხარდაჭერა</h2>
+            <p>თუ დაგჭირდათ დახმარება, დაგვიკავშირდით:</p>
+            <button class="action-btn">მხარდაჭერის კონტაქტი</button>
+        </section>
+    </div>
+</body>
+</html>
